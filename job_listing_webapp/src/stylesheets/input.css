@@ -3,15 +3,14 @@
 @tailwind utilities;
 
 :root {
-  --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
-  --Light-Grayish-Cyan1: hsl(180, 52%, 96%);
-  --Light-Grayish-Cyan2: hsl(180, 35%, 68%);
-  --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
-  --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
-  --card-shadow: hsla(180, 29%, 50%, 0.403);
-
+  --Desaturated-Dark-Cyan: #407676;
+  --Light-Grayish-Cyan1: #effafa;
+  --Light-Grayish-Cyan2: #91caca;
+  --Dark-Grayish-Cyan: #687878;
+  --Very-Dark-Grayish-Cyan: #2c3a3a;
+  --card-shadow: #5ba4a467;
   --shadow: 0 6px 10px 1px var(--card-shadow);
 }
 * {
-  @apply font-['League_Spartan',sans-serif];
+  font-family: "League Spartan", sans-serif;
 }

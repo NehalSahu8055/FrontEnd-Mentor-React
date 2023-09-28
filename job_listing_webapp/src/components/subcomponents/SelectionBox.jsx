@@ -51,6 +51,7 @@ export default function SelectionBox({ info, onKeywordSelect }) {
             id="roles"
             className="w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 px-4 text-lg  text-gray-900 transition duration-300 focus:border-l-[var(--Desaturated-Dark-Cyan)]"
             onChange={handleSelection}
+            aria-label="Select a role"
           >
             {optionRoles}
           </select>
@@ -64,6 +65,7 @@ export default function SelectionBox({ info, onKeywordSelect }) {
             id="levels"
             className="w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 px-4 text-lg  text-gray-900 transition duration-300 focus:border-l-[var(--Desaturated-Dark-Cyan)]"
             onChange={handleSelection}
+            aria-label="Select a level"
           >
             {optionLevels}
           </select>
@@ -77,6 +79,7 @@ export default function SelectionBox({ info, onKeywordSelect }) {
             id="languages"
             className="w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 px-4 text-lg  text-gray-900 transition duration-300 focus:border-l-[var(--Desaturated-Dark-Cyan)]"
             onChange={handleSelection}
+            aria-label="Select a language"
           >
             {optionLanguages}
           </select>
@@ -89,6 +92,7 @@ export default function SelectionBox({ info, onKeywordSelect }) {
             id="tools"
             className="w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 px-4 text-lg  text-gray-900 transition duration-300 focus:border-l-[var(--Desaturated-Dark-Cyan)]"
             onChange={handleSelection}
+            aria-label="Select a tool"
           >
             {optionTools}
           </select>

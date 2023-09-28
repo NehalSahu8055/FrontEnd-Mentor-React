@@ -14,7 +14,10 @@
 ### 🎨 Features
 
 - 🫧 CSS Animations
-- 🤹 Custom UI Design
+- 🤹 Modified UI Design
+- 📄 Live Job Search with Filters
+- 📱 Mobile First Approach
+- 💯 Responsive
 
 ### 📜 What I learnt?
 
@@ -22,7 +25,6 @@
 - Props
 - useState Hook
 - Map & Filter
-
 
 ## ✒️Author
 

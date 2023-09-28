@@ -40,7 +40,7 @@ export default function JobCards({ info, isLoading }) {
         } 
           ${
             isLoading ? "invisible opacity-0" : "visible opacity-100"
-          } flex  flex-col rounded-md p-5 transition-all duration-500 [box-shadow:var(--shadow)] sm:px-8 md:flex-row md:items-center md:justify-between md:gap-5 `}
+          } flex  flex-col rounded-md p-5 transition-all duration-500 [box-shadow:var(--shadow)] sm:px-8 md:flex-row md:items-center md:justify-between md:gap-5`}
       >
         {/* Main Part About Job */}
         <div className="logo div flex items-center transition">
