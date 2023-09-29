@@ -51,6 +51,7 @@ export default function JobCards({ info, isLoading }) {
               width="50"
               height="50"
               alt={`Logo ${company}`}
+              loading="lazy"
             />
           </div>
           <div className="main flex flex-col gap-1 pt-4">
