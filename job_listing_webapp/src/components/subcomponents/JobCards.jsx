@@ -24,7 +24,7 @@ export default function JobCards({ info, isLoading }) {
       return (
         <div
           key={index}
-          className="rounded-md bg-[var(--Light-Grayish-Cyan1)] px-2 py-1 text-[0.95rem] font-semibold text-[var(--Desaturated-Dark-Cyan)] transition"
+          className="rounded-md bg-[var(--Light-Grayish-Cyan1)] px-2 py-1 text-[0.95rem] font-semibold text-[var(--Desaturated-Dark-Cyan)] dark:text-[#e6e6e6c0] dark:bg-[#004052] transition"
         >
           {btn}
         </div>
@@ -36,11 +36,11 @@ export default function JobCards({ info, isLoading }) {
         className={`job-card relative ${
           New &&
           featured &&
-          "border-l-[5px] border-[var(--Desaturated-Dark-Cyan)]"
+          "border-l-[5px] border-[var(--Desaturated-Dark-Cyan)] dark:border-l-[#005066]"
         } 
           ${
             isLoading ? "invisible opacity-0" : "visible opacity-100"
-          } flex  flex-col rounded-md p-5 transition-all duration-500 [box-shadow:var(--shadow)] sm:px-8 md:flex-row md:items-center md:justify-between md:gap-5`}
+          } flex  flex-col rounded-md p-5 transition-all duration-500 [box-shadow:var(--shadow)] dark:shadow-md dark:shadow-[#005066] sm:px-8 md:flex-row md:items-center md:justify-between md:gap-5 dark:bg-[#00303d]`}
       >
         {/* Main Part About Job */}
         <div className="logo div flex items-center transition">
@@ -56,12 +56,12 @@ export default function JobCards({ info, isLoading }) {
           </div>
           <div className="main flex flex-col gap-1 pt-4">
             <div className="about flex flex-wrap justify-start gap-2 font-semibold capitalize">
-              <div className="company pr-4 text-[1rem] text-[var(--Desaturated-Dark-Cyan)]">
+              <div className="company pr-4 text-[1rem] text-[var(--Desaturated-Dark-Cyan)] dark:text-[#e6e6e6c0]">
                 {company}
               </div>
-              <div className="space-x-3 child:rounded-full child:px-2 child:pt-1 child:text-xs child:font-semibold child:uppercase child:tracking-wider child:text-white">
+              <div className="space-x-3 child:rounded-full child:px-2 child:pt-1 child:text-xs child:font-semibold child:uppercase child:tracking-wider child:text-white dark:child:bg-[#005066]">
                 {New && (
-                  <div className="inline-block bg-[var(--Desaturated-Dark-Cyan)]">
+                  <div className="inline-block bg-[var(--Desaturated-Dark-Cyan)] ">
                     new!
                   </div>
                 )}
@@ -74,7 +74,7 @@ export default function JobCards({ info, isLoading }) {
             </div>
 
             <div className="flex flex-col gap-2">
-              <h2 className="position text-[1.2rem] font-bold text-[var(--Very-Dark-Grayish-Cyan)] sm:text-[1.3rem]">
+              <h2 className="position text-[1.2rem] font-bold text-[var(--Very-Dark-Grayish-Cyan)] sm:text-[1.3rem] dark:text-[#e6e6e6ef]">
                 {position}
               </h2>
               <div className=" flex flex-wrap gap-2 text-[1rem] text-[var(--Dark-Grayish-Cyan)]">
@@ -88,7 +88,7 @@ export default function JobCards({ info, isLoading }) {
         <hr className="mb-6 mt-4 border-[var(--Dark-Grayish-Cyan)] transition md:hidden" />
 
         {/* Keywords Buttons */}
-        <div className="flex flex-wrap gap-4 ">{keywordsBtn}</div>
+        <div className="flex flex-wrap gap-4">{keywordsBtn}</div>
       </article>
     );
   });

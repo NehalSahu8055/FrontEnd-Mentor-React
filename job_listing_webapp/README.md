@@ -18,6 +18,7 @@
 - 📄 Live Job Search with Filters
 - 📱 Mobile First Approach
 - 💯 Responsive
+- 🔁 Dark Mode
 
 ### 📜 What I learnt?
 
