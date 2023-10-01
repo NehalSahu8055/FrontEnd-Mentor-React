@@ -90,6 +90,7 @@ export default function JobCards({ info, isLoading }) {
         {/* Keywords Buttons */}
         <div className="flex flex-wrap gap-4">{keywordsBtn}</div>
       </article>
+      
     );
   });
   return jobCard;
